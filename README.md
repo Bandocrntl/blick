@@ -88,17 +88,18 @@ Blick requires the following permissions to function properly:
 
 ## ðŸ“œ Command List
 
-> Replace `!` with your bot's prefix if you customized it.
+> Replace `.` with your bot's prefix if you customized it.
 
 ### Moderation Commands
 ```
-!ban @user [reason]         - Ban a user
-!kick @user [reason]        - Kick a user
-!warn @user [reason]        - Warn a user
-!warnings @user             - View warnings
-!mute @user [time]          - Mute a user
-!unmute @user               - Unmute a user
-!purge [amount]             - Delete messages
+.hardban @user [reason]         - hardbans a user
+.softban @user [reason]        - softbans a user
+.warn @user [reason]        - Warn a user
+.mute @user [time]          - Mute a user
+.unmute @user               - Unmute a user
+.purge [amount]             - Delete messages
+
+Including more
 ```
 
 ### Utility Commands
@@ -107,30 +108,18 @@ Blick requires the following permissions to function properly:
 !serverinfo                 - Shows server details
 !poll "Question" "Option1" "Option2" ...
 !remindme [time] [message]  - Set a personal reminder
-```
 
-### Fun Commands
+Including more
 ```
-!meme                       - Random meme
-!8ball [question]           - Ask the magic 8-ball
-!coinflip                   - Flip a coin
-!trivia                     - Start a trivia question
-```
-
-### AI & Chat Commands
-```
-!chatbot enable/disable     - Toggle chatbot
-!respond add [trigger] [reply] - Add custom reply
-!respond remove [trigger]   - Remove a reply
-```
-
 ### Config Commands
 ```
-!prefix [new_prefix]        - Change command prefix
-!setup                      - Run setup wizard
-!welcome set [channel] [message] - Set welcome message
-!autorole set @role         - Set auto-role
-!logs set [type] [channel]  - Set log channels
+.prefix [new_prefix]        - Change command prefix
+.setup                      - Run setup wizard
+.welcome set [channel] [message] - Set welcome message
+.autorole set @role         - Set auto-role
+.logs set [type] [channel]  - Set log channels
+
+Including more
 ```
 
 ---
